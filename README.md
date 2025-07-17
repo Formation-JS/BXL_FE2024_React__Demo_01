@@ -13,3 +13,11 @@ Démarrage du projet (dans con dossier)
 npm i
 npm run dev
 ```
+
+## Structure de fichier
+```
+src
+ - components -> Composant réutilisable
+ - features -> Composant métier
+ - layouts -> Composant "static" (header, footer, ...)
+```

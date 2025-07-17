@@ -12,4 +12,4 @@ Démarrage du projet (dans con dossier)
 ```
 npm i
 npm run dev
-```Z
+```

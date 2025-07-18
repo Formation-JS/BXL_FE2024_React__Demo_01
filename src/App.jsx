@@ -1,5 +1,6 @@
 import './App.css'
 import PeopleTable from './components/people-table/people-table';
+import TableMulti from './components/table-multi/table-multi';
 import Welcome from './components/welcome/welcome';
 
 
@@ -21,6 +22,10 @@ function App() {
 
       <h2>Demo 02</h2>
       <PeopleTable people={peopleData} />
+
+      <h2>Demo 03</h2>
+      <TableMulti />
+    
     </>
   )
 }

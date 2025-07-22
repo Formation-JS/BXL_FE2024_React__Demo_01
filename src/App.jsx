@@ -2,6 +2,7 @@ import './App.css'
 import PeopleTable from './components/people-table/people-table';
 import TableMulti from './components/table-multi/table-multi';
 import Welcome from './components/welcome/welcome';
+import RegisterForm from './features/register-form/register-form-v2';
 
 
 const peopleData = [
@@ -20,11 +21,14 @@ function App() {
       <Welcome lastName='Duck' firstName='Della' />
       {/* <Welcome firstName='Gontran' /> */}
 
-      <h2>Demo 02</h2>
-      <PeopleTable people={peopleData} />
+      {/* <h2>Demo 02</h2>
+      <PeopleTable people={peopleData} /> */}
 
-      <h2>Demo 03</h2>
-      <TableMulti />
+      {/* <h2>Demo 03</h2>
+      <TableMulti /> */}
+
+      <h2>Demo 04</h2>
+      <RegisterForm />
     
     </>
   )

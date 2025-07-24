@@ -1,20 +1,21 @@
-import './App.css'
+import './App.css';
 import PeopleTable from './components/people-table/people-table';
 import TableMulti from './components/table-multi/table-multi';
 import Welcome from './components/welcome/welcome';
+import NumberForm from './features/number-form/number-form-v2';
 import RegisterForm from './features/register-form/register-form-v2';
 
 
 const peopleData = [
-  {id: 1, firstName: 'Zaza', lastName: 'Vanderquack', age: 13 },
-  {id: 2, firstName: 'Gontran', lastName: 'Bonheur', age: 35 },
-  {id: 3, firstName: 'Donald', lastName: 'Duck', age: 34 },
-  {id: 4, firstName: 'Balthazar', lastName: 'Picsou', age: 79 },
-  {id: 5, firstName: 'Géo', lastName: 'Trouve Tout', age: 51 }
+  { id: 1, firstName: 'Zaza', lastName: 'Vanderquack', age: 13 },
+  { id: 2, firstName: 'Gontran', lastName: 'Bonheur', age: 35 },
+  { id: 3, firstName: 'Donald', lastName: 'Duck', age: 34 },
+  { id: 4, firstName: 'Balthazar', lastName: 'Picsou', age: 79 },
+  { id: 5, firstName: 'Géo', lastName: 'Trouve Tout', age: 51 }
 ];
 
 function App() {
-  
+
   return (
     <>
       <h2>Demo 01</h2>
@@ -27,11 +28,13 @@ function App() {
       {/* <h2>Demo 03</h2>
       <TableMulti /> */}
 
-      <h2>Demo 04</h2>
-      <RegisterForm />
-    
+      {/* <h2>Demo 04 - Formulaire (Composant controlé)</h2>
+      <RegisterForm /> */}
+
+      <h2>Demo 04 - Formulaire (Action)</h2>
+      <NumberForm />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
